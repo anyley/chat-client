@@ -1,6 +1,7 @@
-[![Build Status](https://travis-ci.org/anyley/chat-client.svg?branch=master)](https://travis-ci.org/anyley/chat-client)
+#chat-client
+[![GitHub license](https://img.shields.io/badge/license-ISC-blue.svg)](https://raw.githubusercontent.com/anyley/chat-client/master/LICENSE) [![Build Status](https://travis-ci.org/anyley/chat-client.svg?branch=master)](https://travis-ci.org/anyley/chat-client)
 
-__Разработать простой пример многопользовательского чата__
+###Разработать простой пример многопользовательского чата
 
 1. Рекомендуемый стек:
     - Бэкенд на Ruby, хранение в базе данных не требуется,
