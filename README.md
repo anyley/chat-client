@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/anyley/chat-client.svg?branch=master)](https://travis-ci.org/anyley/chat-client)
+
 __Разработать простой пример многопользовательского чата__
 
 1. Рекомендуемый стек:
