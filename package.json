@@ -8,7 +8,7 @@
     "build": "npm run clean && npm run build:webpack",
     "build:webpack": "NODE_ENV=production webpack --progress -v --config webpack.config.prod.js",
     "hmr": "NODE_ENV=development webpack-dev-server --hot --inline",
-    "test": "karma start"
+    "test": "./node_modules/.bin/karma start"
   },
   "author": "Diver",
   "license": "ISC",
