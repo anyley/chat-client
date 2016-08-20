@@ -7,7 +7,8 @@
     "clean": "rimraf public",
     "build": "npm run clean && npm run build:webpack",
     "build:webpack": "NODE_ENV=production webpack --progress -v --config webpack.config.prod.js",
-    "hmr": "NODE_ENV=development webpack-dev-server --hot --inline"
+    "hmr": "NODE_ENV=development webpack-dev-server --hot --inline",
+    "test": "./node_modules/.bin/karma start --single-run --browsers PhantomJS || true"
   },
   "author": "Diver",
   "license": "ISC",
@@ -38,6 +39,19 @@
   "devDependencies": {
     "babel-jest": "^14.1.0",
     "babel-polyfill": "^6.13.0",
+    "chai": "^3.5.0",
+    "enzyme": "^2.4.1",
+    "jasmine": "^2.4.1",
+    "json-loader": "^0.5.4",
+    "karma": "^1.2.0",
+    "karma-babel-preprocessor": "^6.0.1",
+    "karma-jasmine": "^1.0.2",
+    "karma-phantomjs-launcher": "^1.0.1",
+    "karma-sourcemap-loader": "^0.3.7",
+    "karma-webpack": "^1.8.0",
+    "mocha": "^3.0.2",
+    "phantomjs": "^2.1.7",
+    "react-addons-test-utils": "^15.3.1",
     "react-hot-loader": "^1.3.0",
     "webpack-dashboard": "0.0.1",
     "webpack-dev-server": "^1.14.1"
